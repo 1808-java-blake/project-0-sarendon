@@ -1,0 +1,7 @@
+2018-08-18 00:15:12 TRACE Launcher:11 - trace log
+2018-08-18 00:15:12 DEBUG Launcher:12 - debug log
+2018-08-18 00:15:12 INFO  Launcher:13 - info log
+2018-08-18 00:15:12 WARN  Launcher:14 - warn log
+2018-08-18 00:15:12 ERROR Launcher:15 - error log
+2018-08-18 00:15:12 FATAL Launcher:16 - fatal log
+2018-08-18 00:15:12 DEBUG LoginScreen:17 - started login screen
