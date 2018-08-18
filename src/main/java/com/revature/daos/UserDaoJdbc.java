@@ -2,6 +2,7 @@ package com.revature.daos;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import org.apache.log4j.Logger;
@@ -49,14 +50,54 @@ public class UserDaoJdbc implements UserDao {
 
 	@Override
 	public User findByUsernameAndPassword(String username, String password) {
-		// TODO Auto-generated method stub
+		try (Connection conn = cu.getConnection()) {
+			
+			PreparedStatement ps = conn.prepareStatement(
+					"SELECT * FROM user_info WHERE username=? and password=?");
+			ps.setString(1, username);
+			ps.setString(2, password);
+			ResultSet rs = ps.executeQuery();
+					
+			if(rs.next()) {
+				User u = new User();
+				u.setAge(rs.getInt("age"));
+				u.setFirstName(rs.getString("firstname"));
+				u.setLastName(rs.getString("lastname"));
+				u.setUsername(rs.getString("username"));
+				u.setId(rs.getInt("user_id"));
+				u.setBalance(rs.getInt("balance"));
+				return u;
+			} else {
+				log.warn("failed to find user with provided credentials from the db");
+				return null;
+			}
+
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		return null;
 	}
 
+
 	@Override
-	public void updateUser(User u) {
-		// TODO Auto-generated method stub
+	public void updateUserBalance(int userid , int updatebalance) {
 		
+
+		try (Connection conn = cu.getConnection()) {
+			
+			PreparedStatement ps = conn.prepareStatement(
+					"UPDATE user_info SET balance = ? WHERE user_id = ?");
+			ps.setInt(1, updatebalance);
+			ps.setInt(2, userid);
+			int recordupate = ps.executeUpdate();
+
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	
 	}
 
 	@Override

@@ -12,7 +12,7 @@ public interface UserDao {
 	 */
 	void createUser(User u);
 	User findByUsernameAndPassword(String username, String password);
-	void updateUser(User u);
+	void updateUserBalance(int userid, int updateBalance);
 	void deleteUser(User u);
 
 }
