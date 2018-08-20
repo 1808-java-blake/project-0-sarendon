@@ -1,5 +1,8 @@
 package com.revature.daos;
 
+import java.util.List;
+
+import com.revature.beans.Transaction;
 import com.revature.beans.User;
 
 public interface UserDao {
@@ -14,5 +17,5 @@ public interface UserDao {
 	User findByUsernameAndPassword(String username, String password);
 	void updateUserBalance(int userid, int updateBalance);
 	void deleteUser(User u);
-
+	List<User> findByUserId();
 }

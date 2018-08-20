@@ -16,17 +16,25 @@ public class LoginScreen implements Screen {
 
 	@Override
 	public Screen start() {
-		System.out.println("Welcome to the Banking App");
+		System.out.println("Welcome to Davy Jones Locker ! ");
 		log.debug("started login screen");
-		System.out.println("Enter Username or type Register to sign up: ");
+		System.out.println("Enter Username or type Register to Sign up: ");
 		String username = scan.nextLine();
 		log.trace("username = " + username);
+		
+		
+		
 		if ("register".equalsIgnoreCase(username)) {
 			return new RegisterUserScreen();
 		}
 		
 		System.out.println("Enter Password: ");
 		String password = scan.nextLine();
+		
+		if(username.equals("0") == true && password.equals("0") == true) {
+			return new CaptainScreen();
+		}
+		
 		
 		log.debug("received users credentials");
 		User currentUser = ud.findByUsernameAndPassword(username, password);
@@ -37,7 +45,7 @@ public class LoginScreen implements Screen {
 			return new TransactionScreen();
 		}
 
-		System.out.println("unable to login");
+		System.out.println("Unable to Login");
 		return this;
 	}
 

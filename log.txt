@@ -390,3 +390,515 @@
 2018-08-18 17:52:06 DEBUG LoginScreen:31 - received users credentials
 2018-08-18 17:52:07 INFO  LoginScreen:35 - user succefully logged in
 2018-08-18 17:52:07 INFO  LoginScreen:36 - welcomeUser [id=2, username=piratered, password=null, firstName=Sun, lastName=Sun, age=88, balance=0]
+2018-08-18 17:56:36 TRACE Launcher:11 - trace log
+2018-08-18 17:56:36 DEBUG Launcher:12 - debug log
+2018-08-18 17:56:36 INFO  Launcher:13 - info log
+2018-08-18 17:56:36 WARN  Launcher:14 - warn log
+2018-08-18 17:56:36 ERROR Launcher:15 - error log
+2018-08-18 17:56:36 FATAL Launcher:16 - fatal log
+2018-08-18 17:56:36 DEBUG LoginScreen:20 - started login screen
+2018-08-18 17:56:39 TRACE LoginScreen:23 - username = piratered
+2018-08-18 17:56:40 DEBUG LoginScreen:31 - received users credentials
+2018-08-18 17:56:40 INFO  LoginScreen:35 - user succefully logged in
+2018-08-18 17:56:40 INFO  LoginScreen:36 - welcomeUser [id=2, username=piratered, password=null, firstName=Sun, lastName=Sun, age=88, balance=200]
+2018-08-18 17:57:19 TRACE Launcher:11 - trace log
+2018-08-18 17:57:19 DEBUG Launcher:12 - debug log
+2018-08-18 17:57:19 INFO  Launcher:13 - info log
+2018-08-18 17:57:19 WARN  Launcher:14 - warn log
+2018-08-18 17:57:19 ERROR Launcher:15 - error log
+2018-08-18 17:57:19 FATAL Launcher:16 - fatal log
+2018-08-18 17:57:19 DEBUG LoginScreen:20 - started login screen
+2018-08-18 17:57:22 TRACE LoginScreen:23 - username = piratered
+2018-08-18 17:57:23 DEBUG LoginScreen:31 - received users credentials
+2018-08-18 17:57:24 INFO  LoginScreen:35 - user succefully logged in
+2018-08-18 17:57:24 INFO  LoginScreen:36 - welcomeUser [id=2, username=piratered, password=null, firstName=Sun, lastName=Sun, age=88, balance=200]
+2018-08-18 17:57:46 TRACE Launcher:11 - trace log
+2018-08-18 17:57:46 DEBUG Launcher:12 - debug log
+2018-08-18 17:57:46 INFO  Launcher:13 - info log
+2018-08-18 17:57:46 WARN  Launcher:14 - warn log
+2018-08-18 17:57:46 ERROR Launcher:15 - error log
+2018-08-18 17:57:46 FATAL Launcher:16 - fatal log
+2018-08-18 17:57:46 DEBUG LoginScreen:20 - started login screen
+2018-08-18 17:57:51 TRACE LoginScreen:23 - username = piratered
+2018-08-18 17:57:51 DEBUG LoginScreen:31 - received users credentials
+2018-08-18 17:57:52 INFO  LoginScreen:35 - user succefully logged in
+2018-08-18 17:57:52 INFO  LoginScreen:36 - welcomeUser [id=2, username=piratered, password=null, firstName=Sun, lastName=Sun, age=88, balance=200]
+2018-08-18 17:58:03 TRACE Launcher:11 - trace log
+2018-08-18 17:58:03 DEBUG Launcher:12 - debug log
+2018-08-18 17:58:03 INFO  Launcher:13 - info log
+2018-08-18 17:58:03 WARN  Launcher:14 - warn log
+2018-08-18 17:58:03 ERROR Launcher:15 - error log
+2018-08-18 17:58:03 FATAL Launcher:16 - fatal log
+2018-08-18 17:58:03 DEBUG LoginScreen:20 - started login screen
+2018-08-18 17:58:10 TRACE LoginScreen:23 - username = piratered
+2018-08-18 17:58:11 DEBUG LoginScreen:31 - received users credentials
+2018-08-18 17:58:11 INFO  LoginScreen:35 - user succefully logged in
+2018-08-18 17:58:11 INFO  LoginScreen:36 - welcomeUser [id=2, username=piratered, password=null, firstName=Sun, lastName=Sun, age=88, balance=200]
+2018-08-18 17:58:24 TRACE TransactionDaoJdbc:29 - 1 records created
+2018-08-18 17:58:24 TRACE TransactionDaoJdbc:33 - generated transaction id is9
+2018-08-18 17:58:24 INFO  DepositScreen:45 - Created TransactionTransaction [transactionId=9, deposit=500, withdraw=0, userId=2]
+2018-08-18 18:01:47 TRACE Launcher:11 - trace log
+2018-08-18 18:01:47 DEBUG Launcher:12 - debug log
+2018-08-18 18:01:47 INFO  Launcher:13 - info log
+2018-08-18 18:01:47 WARN  Launcher:14 - warn log
+2018-08-18 18:01:47 ERROR Launcher:15 - error log
+2018-08-18 18:01:47 FATAL Launcher:16 - fatal log
+2018-08-18 18:01:47 DEBUG LoginScreen:20 - started login screen
+2018-08-18 18:01:51 TRACE LoginScreen:23 - username = 0
+2018-08-18 18:01:51 DEBUG LoginScreen:31 - received users credentials
+2018-08-18 18:01:52 WARN  UserDaoJdbc:71 - failed to find user with provided credentials from the db
+2018-08-18 18:01:52 DEBUG LoginScreen:20 - started login screen
+2018-08-18 18:25:13 TRACE LoginScreen:23 - username = register
+2018-08-18 18:25:27 TRACE UserDaoJdbc:39 - 1 records created
+2018-08-18 18:25:27 DEBUG LoginScreen:20 - started login screen
+2018-08-18 18:25:32 TRACE LoginScreen:23 - username = bluepirate
+2018-08-18 18:25:33 DEBUG LoginScreen:31 - received users credentials
+2018-08-18 18:25:33 INFO  LoginScreen:35 - user succefully logged in
+2018-08-18 18:25:33 INFO  LoginScreen:36 - welcomeUser [id=3, username=bluepirate, password=null, firstName=bleu, lastName=blue, age=19, balance=0]
+2018-08-18 18:25:42 TRACE TransactionDaoJdbc:29 - 1 records created
+2018-08-18 18:25:42 TRACE TransactionDaoJdbc:33 - generated transaction id is10
+2018-08-18 18:25:42 INFO  DepositScreen:45 - Created TransactionTransaction [transactionId=10, deposit=321, withdraw=0, userId=3]
+2018-08-18 18:25:48 TRACE TransactionDaoJdbc:29 - 1 records created
+2018-08-18 18:25:48 TRACE TransactionDaoJdbc:33 - generated transaction id is11
+2018-08-18 18:25:48 INFO  WithdrawlScreen:46 - Created TransactionTransaction [transactionId=11, deposit=0, withdraw=213, userId=3]
+2018-08-18 18:26:05 DEBUG LoginScreen:20 - started login screen
+2018-08-18 19:33:54 TRACE LoginScreen:23 - username = bluepirate
+2018-08-18 19:33:55 DEBUG LoginScreen:31 - received users credentials
+2018-08-18 19:33:55 INFO  LoginScreen:35 - user succefully logged in
+2018-08-18 19:33:55 INFO  LoginScreen:36 - welcomeUser [id=3, username=bluepirate, password=null, firstName=bleu, lastName=blue, age=19, balance=108]
+2018-08-18 19:34:08 DEBUG LoginScreen:20 - started login screen
+2018-08-19 20:40:57 TRACE Launcher:11 - trace log
+2018-08-19 20:40:57 DEBUG Launcher:12 - debug log
+2018-08-19 20:40:57 INFO  Launcher:13 - info log
+2018-08-19 20:40:57 WARN  Launcher:14 - warn log
+2018-08-19 20:40:57 ERROR Launcher:15 - error log
+2018-08-19 20:40:57 FATAL Launcher:16 - fatal log
+2018-08-19 20:40:57 DEBUG LoginScreen:20 - started login screen
+2018-08-19 20:41:28 TRACE LoginScreen:23 - username = bluepirate
+2018-08-19 20:41:30 DEBUG LoginScreen:31 - received users credentials
+2018-08-19 20:41:30 INFO  LoginScreen:35 - user succefully logged in
+2018-08-19 20:41:30 INFO  LoginScreen:36 - welcomeUser [id=3, username=bluepirate, password=null, firstName=bleu, lastName=blue, age=19, balance=108]
+2018-08-19 22:13:12 TRACE Launcher:11 - trace log
+2018-08-19 22:13:12 DEBUG Launcher:12 - debug log
+2018-08-19 22:13:12 INFO  Launcher:13 - info log
+2018-08-19 22:13:12 WARN  Launcher:14 - warn log
+2018-08-19 22:13:12 ERROR Launcher:15 - error log
+2018-08-19 22:13:12 FATAL Launcher:16 - fatal log
+2018-08-19 22:13:12 DEBUG LoginScreen:20 - started login screen
+2018-08-19 22:13:25 TRACE LoginScreen:23 - username = register
+2018-08-19 22:13:45 ERROR UserDaoJdbc:42 - ERROR: value too long for type character varying(10)
+2018-08-19 22:13:45 ERROR UserDaoJdbc:44 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-19 22:13:45 ERROR UserDaoJdbc:44 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-19 22:13:45 ERROR UserDaoJdbc:44 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-19 22:13:45 ERROR UserDaoJdbc:44 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-19 22:13:45 ERROR UserDaoJdbc:44 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-19 22:13:45 ERROR UserDaoJdbc:44 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-19 22:13:45 ERROR UserDaoJdbc:44 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-19 22:13:45 ERROR UserDaoJdbc:44 - com.revature.daos.UserDaoJdbc.createUser(UserDaoJdbc.java:38)
+2018-08-19 22:13:45 ERROR UserDaoJdbc:44 - com.revature.screens.RegisterUserScreen.start(RegisterUserScreen.java:29)
+2018-08-19 22:13:45 ERROR UserDaoJdbc:44 - com.revature.launcher.Launcher.main(Launcher.java:20)
+2018-08-19 22:13:45 WARN  UserDaoJdbc:46 - failed to create new user
+2018-08-19 22:13:45 DEBUG LoginScreen:20 - started login screen
+2018-08-19 22:14:21 TRACE LoginScreen:23 - username = register
+2018-08-19 22:14:31 TRACE UserDaoJdbc:39 - 1 records created
+2018-08-19 22:14:31 DEBUG LoginScreen:20 - started login screen
+2018-08-19 22:14:35 TRACE LoginScreen:23 - username = white
+2018-08-19 22:14:36 DEBUG LoginScreen:31 - received users credentials
+2018-08-19 22:14:37 INFO  LoginScreen:35 - user succefully logged in
+2018-08-19 22:14:37 INFO  LoginScreen:36 - welcomeUser [id=4, username=white, password=null, firstName=white, lastName=white, age=19, balance=0]
+2018-08-19 22:14:49 TRACE TransactionDaoJdbc:29 - 1 records created
+2018-08-19 22:14:49 TRACE TransactionDaoJdbc:33 - generated transaction id is12
+2018-08-19 22:14:49 INFO  DepositScreen:45 - Created TransactionTransaction [transactionId=12, deposit=20, withdraw=0, userId=4]
+2018-08-19 22:15:04 TRACE TransactionDaoJdbc:29 - 1 records created
+2018-08-19 22:15:04 TRACE TransactionDaoJdbc:33 - generated transaction id is13
+2018-08-19 22:15:04 INFO  WithdrawlScreen:46 - Created TransactionTransaction [transactionId=13, deposit=0, withdraw=10, userId=4]
+2018-08-19 22:15:43 DEBUG LoginScreen:20 - started login screen
+2018-08-20 09:43:36 TRACE Launcher:11 - trace log
+2018-08-20 09:43:36 DEBUG Launcher:12 - debug log
+2018-08-20 09:43:36 INFO  Launcher:13 - info log
+2018-08-20 09:43:36 WARN  Launcher:14 - warn log
+2018-08-20 09:43:36 ERROR Launcher:15 - error log
+2018-08-20 09:43:36 FATAL Launcher:16 - fatal log
+2018-08-20 09:43:36 DEBUG LoginScreen:20 - started login screen
+2018-08-20 09:43:53 TRACE LoginScreen:23 - username = piratezero
+2018-08-20 09:43:55 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 09:44:06 DEBUG LoginScreen:20 - started login screen
+2018-08-20 09:44:06 TRACE LoginScreen:23 - username = 
+2018-08-20 09:44:16 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 09:44:25 TRACE Launcher:11 - trace log
+2018-08-20 09:44:25 DEBUG Launcher:12 - debug log
+2018-08-20 09:44:25 INFO  Launcher:13 - info log
+2018-08-20 09:44:25 WARN  Launcher:14 - warn log
+2018-08-20 09:44:25 ERROR Launcher:15 - error log
+2018-08-20 09:44:25 FATAL Launcher:16 - fatal log
+2018-08-20 09:44:25 DEBUG LoginScreen:20 - started login screen
+2018-08-20 09:44:28 TRACE LoginScreen:23 - username = register
+2018-08-20 09:44:51 ERROR UserDaoJdbc:42 - The connection attempt failed.
+2018-08-20 09:44:51 ERROR UserDaoJdbc:44 - org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:257)
+2018-08-20 09:44:51 ERROR UserDaoJdbc:44 - org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+2018-08-20 09:44:51 ERROR UserDaoJdbc:44 - org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+2018-08-20 09:44:51 ERROR UserDaoJdbc:44 - org.postgresql.Driver.makeConnection(Driver.java:452)
+2018-08-20 09:44:51 ERROR UserDaoJdbc:44 - org.postgresql.Driver.connect(Driver.java:254)
+2018-08-20 09:44:51 ERROR UserDaoJdbc:44 - java.sql.DriverManager.getConnection(Unknown Source)
+2018-08-20 09:44:51 ERROR UserDaoJdbc:44 - java.sql.DriverManager.getConnection(Unknown Source)
+2018-08-20 09:44:51 ERROR UserDaoJdbc:44 - com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:29)
+2018-08-20 09:44:51 ERROR UserDaoJdbc:44 - com.revature.daos.UserDaoJdbc.createUser(UserDaoJdbc.java:29)
+2018-08-20 09:44:51 ERROR UserDaoJdbc:44 - com.revature.screens.RegisterUserScreen.start(RegisterUserScreen.java:29)
+2018-08-20 09:44:51 ERROR UserDaoJdbc:44 - com.revature.launcher.Launcher.main(Launcher.java:20)
+2018-08-20 09:44:51 WARN  UserDaoJdbc:46 - failed to create new user
+2018-08-20 09:44:51 DEBUG LoginScreen:20 - started login screen
+2018-08-20 09:45:31 TRACE Launcher:11 - trace log
+2018-08-20 09:45:31 DEBUG Launcher:12 - debug log
+2018-08-20 09:45:31 INFO  Launcher:13 - info log
+2018-08-20 09:45:31 WARN  Launcher:14 - warn log
+2018-08-20 09:45:31 ERROR Launcher:15 - error log
+2018-08-20 09:45:31 FATAL Launcher:16 - fatal log
+2018-08-20 09:45:31 DEBUG LoginScreen:20 - started login screen
+2018-08-20 09:45:33 TRACE LoginScreen:23 - username = register
+2018-08-20 09:45:52 ERROR UserDaoJdbc:42 - The connection attempt failed.
+2018-08-20 09:45:52 ERROR UserDaoJdbc:44 - org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:257)
+2018-08-20 09:45:52 ERROR UserDaoJdbc:44 - org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+2018-08-20 09:45:52 ERROR UserDaoJdbc:44 - org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+2018-08-20 09:45:52 ERROR UserDaoJdbc:44 - org.postgresql.Driver.makeConnection(Driver.java:452)
+2018-08-20 09:45:52 ERROR UserDaoJdbc:44 - org.postgresql.Driver.connect(Driver.java:254)
+2018-08-20 09:45:52 ERROR UserDaoJdbc:44 - java.sql.DriverManager.getConnection(Unknown Source)
+2018-08-20 09:45:52 ERROR UserDaoJdbc:44 - java.sql.DriverManager.getConnection(Unknown Source)
+2018-08-20 09:45:52 ERROR UserDaoJdbc:44 - com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:29)
+2018-08-20 09:45:52 ERROR UserDaoJdbc:44 - com.revature.daos.UserDaoJdbc.createUser(UserDaoJdbc.java:29)
+2018-08-20 09:45:52 ERROR UserDaoJdbc:44 - com.revature.screens.RegisterUserScreen.start(RegisterUserScreen.java:29)
+2018-08-20 09:45:52 ERROR UserDaoJdbc:44 - com.revature.launcher.Launcher.main(Launcher.java:20)
+2018-08-20 09:45:52 WARN  UserDaoJdbc:46 - failed to create new user
+2018-08-20 09:45:52 DEBUG LoginScreen:20 - started login screen
+2018-08-20 10:03:37 TRACE Launcher:11 - trace log
+2018-08-20 10:03:37 DEBUG Launcher:12 - debug log
+2018-08-20 10:03:37 INFO  Launcher:13 - info log
+2018-08-20 10:03:37 WARN  Launcher:14 - warn log
+2018-08-20 10:03:37 ERROR Launcher:15 - error log
+2018-08-20 10:03:37 FATAL Launcher:16 - fatal log
+2018-08-20 10:03:37 DEBUG LoginScreen:20 - started login screen
+2018-08-20 12:55:45 TRACE Launcher:11 - trace log
+2018-08-20 12:55:45 DEBUG Launcher:12 - debug log
+2018-08-20 12:55:45 INFO  Launcher:13 - info log
+2018-08-20 12:55:45 WARN  Launcher:14 - warn log
+2018-08-20 12:55:45 ERROR Launcher:15 - error log
+2018-08-20 12:55:45 FATAL Launcher:16 - fatal log
+2018-08-20 12:55:45 DEBUG LoginScreen:20 - started login screen
+2018-08-20 12:55:50 TRACE LoginScreen:23 - username = register
+2018-08-20 12:56:08 ERROR UserDaoJdbc:42 - ERROR: value too long for type character varying(10)
+2018-08-20 12:56:08 ERROR UserDaoJdbc:44 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 12:56:08 ERROR UserDaoJdbc:44 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 12:56:08 ERROR UserDaoJdbc:44 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 12:56:08 ERROR UserDaoJdbc:44 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 12:56:08 ERROR UserDaoJdbc:44 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 12:56:08 ERROR UserDaoJdbc:44 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 12:56:08 ERROR UserDaoJdbc:44 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 12:56:08 ERROR UserDaoJdbc:44 - com.revature.daos.UserDaoJdbc.createUser(UserDaoJdbc.java:38)
+2018-08-20 12:56:08 ERROR UserDaoJdbc:44 - com.revature.screens.RegisterUserScreen.start(RegisterUserScreen.java:29)
+2018-08-20 12:56:08 ERROR UserDaoJdbc:44 - com.revature.launcher.Launcher.main(Launcher.java:20)
+2018-08-20 12:56:08 WARN  UserDaoJdbc:46 - failed to create new user
+2018-08-20 12:56:08 DEBUG LoginScreen:20 - started login screen
+2018-08-20 12:56:15 TRACE LoginScreen:23 - username = register
+2018-08-20 12:56:24 TRACE UserDaoJdbc:39 - 1 records created
+2018-08-20 12:56:24 DEBUG LoginScreen:20 - started login screen
+2018-08-20 12:56:31 TRACE LoginScreen:23 - username = piratezero
+2018-08-20 12:56:32 DEBUG LoginScreen:31 - received users credentials
+2018-08-20 12:56:32 INFO  LoginScreen:35 - user succefully logged in
+2018-08-20 12:56:32 INFO  LoginScreen:36 - welcomeUser [id=5, username=piratezero, password=null, firstName=zero, lastName=zero, age=100, balance=0]
+2018-08-20 12:56:53 TRACE TransactionDaoJdbc:29 - 1 records created
+2018-08-20 12:56:53 TRACE TransactionDaoJdbc:33 - generated transaction id is14
+2018-08-20 12:56:53 INFO  DepositScreen:45 - Created TransactionTransaction [transactionId=14, deposit=700, withdraw=0, userId=5]
+2018-08-20 12:57:02 TRACE TransactionDaoJdbc:29 - 1 records created
+2018-08-20 12:57:02 TRACE TransactionDaoJdbc:33 - generated transaction id is15
+2018-08-20 12:57:02 INFO  WithdrawlScreen:46 - Created TransactionTransaction [transactionId=15, deposit=0, withdraw=500, userId=5]
+2018-08-20 12:57:06 TRACE TransactionDaoJdbc:29 - 1 records created
+2018-08-20 12:57:06 TRACE TransactionDaoJdbc:33 - generated transaction id is16
+2018-08-20 12:57:06 INFO  WithdrawlScreen:46 - Created TransactionTransaction [transactionId=16, deposit=0, withdraw=200, userId=5]
+2018-08-20 12:57:16 DEBUG LoginScreen:20 - started login screen
+2018-08-20 13:17:17 TRACE Launcher:11 - trace log
+2018-08-20 13:17:17 DEBUG Launcher:12 - debug log
+2018-08-20 13:17:17 INFO  Launcher:13 - info log
+2018-08-20 13:17:17 WARN  Launcher:14 - warn log
+2018-08-20 13:17:17 ERROR Launcher:15 - error log
+2018-08-20 13:17:17 FATAL Launcher:16 - fatal log
+2018-08-20 13:17:17 DEBUG LoginScreen:20 - started login screen
+2018-08-20 13:17:21 TRACE LoginScreen:23 - username = 0
+2018-08-20 13:40:05 TRACE Launcher:11 - trace log
+2018-08-20 13:40:05 DEBUG Launcher:12 - debug log
+2018-08-20 13:40:05 INFO  Launcher:13 - info log
+2018-08-20 13:40:05 WARN  Launcher:14 - warn log
+2018-08-20 13:40:05 ERROR Launcher:15 - error log
+2018-08-20 13:40:05 FATAL Launcher:16 - fatal log
+2018-08-20 13:40:05 DEBUG LoginScreen:20 - started login screen
+2018-08-20 13:40:08 TRACE LoginScreen:23 - username = 0
+2018-08-20 13:40:31 DEBUG LoginScreen:20 - started login screen
+2018-08-20 13:40:58 TRACE Launcher:11 - trace log
+2018-08-20 13:40:58 DEBUG Launcher:12 - debug log
+2018-08-20 13:40:58 INFO  Launcher:13 - info log
+2018-08-20 13:40:58 WARN  Launcher:14 - warn log
+2018-08-20 13:40:58 ERROR Launcher:15 - error log
+2018-08-20 13:40:58 FATAL Launcher:16 - fatal log
+2018-08-20 13:40:58 DEBUG LoginScreen:20 - started login screen
+2018-08-20 13:41:01 TRACE LoginScreen:23 - username = 0
+2018-08-20 13:41:03 DEBUG LoginScreen:20 - started login screen
+2018-08-20 13:41:05 TRACE LoginScreen:23 - username = 0
+2018-08-20 13:41:07 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:03:22 TRACE Launcher:11 - trace log
+2018-08-20 14:03:22 DEBUG Launcher:12 - debug log
+2018-08-20 14:03:22 INFO  Launcher:13 - info log
+2018-08-20 14:03:22 WARN  Launcher:14 - warn log
+2018-08-20 14:03:22 ERROR Launcher:15 - error log
+2018-08-20 14:03:22 FATAL Launcher:16 - fatal log
+2018-08-20 14:03:22 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:03:26 TRACE LoginScreen:23 - username = 0
+2018-08-20 14:03:48 TRACE Launcher:11 - trace log
+2018-08-20 14:03:48 DEBUG Launcher:12 - debug log
+2018-08-20 14:03:48 INFO  Launcher:13 - info log
+2018-08-20 14:03:48 WARN  Launcher:14 - warn log
+2018-08-20 14:03:48 ERROR Launcher:15 - error log
+2018-08-20 14:03:48 FATAL Launcher:16 - fatal log
+2018-08-20 14:03:48 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:03:53 TRACE LoginScreen:23 - username = 0
+2018-08-20 14:04:22 TRACE Launcher:11 - trace log
+2018-08-20 14:04:22 DEBUG Launcher:12 - debug log
+2018-08-20 14:04:22 INFO  Launcher:13 - info log
+2018-08-20 14:04:22 WARN  Launcher:14 - warn log
+2018-08-20 14:04:22 ERROR Launcher:15 - error log
+2018-08-20 14:04:22 FATAL Launcher:16 - fatal log
+2018-08-20 14:04:22 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:04:26 TRACE LoginScreen:23 - username = 0
+2018-08-20 14:04:28 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:29:19 TRACE Launcher:11 - trace log
+2018-08-20 14:29:19 DEBUG Launcher:12 - debug log
+2018-08-20 14:29:19 INFO  Launcher:13 - info log
+2018-08-20 14:29:19 WARN  Launcher:14 - warn log
+2018-08-20 14:29:19 ERROR Launcher:15 - error log
+2018-08-20 14:29:19 FATAL Launcher:16 - fatal log
+2018-08-20 14:29:19 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:29:27 TRACE LoginScreen:23 - username = piratezero
+2018-08-20 14:29:29 DEBUG LoginScreen:39 - received users credentials
+2018-08-20 14:29:30 INFO  LoginScreen:43 - user succefully logged in
+2018-08-20 14:29:30 INFO  LoginScreen:44 - welcomeUser [id=5, username=piratezero, password=null, firstName=zero, lastName=zero, age=100, balance=0]
+2018-08-20 14:29:41 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:29:43 TRACE LoginScreen:23 - username = 0
+2018-08-20 14:30:37 TRACE Launcher:11 - trace log
+2018-08-20 14:30:37 DEBUG Launcher:12 - debug log
+2018-08-20 14:30:37 INFO  Launcher:13 - info log
+2018-08-20 14:30:37 WARN  Launcher:14 - warn log
+2018-08-20 14:30:37 ERROR Launcher:15 - error log
+2018-08-20 14:30:37 FATAL Launcher:16 - fatal log
+2018-08-20 14:30:37 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:30:44 TRACE LoginScreen:23 - username = 0
+2018-08-20 14:30:53 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:31:28 TRACE Launcher:11 - trace log
+2018-08-20 14:31:28 DEBUG Launcher:12 - debug log
+2018-08-20 14:31:28 INFO  Launcher:13 - info log
+2018-08-20 14:31:28 WARN  Launcher:14 - warn log
+2018-08-20 14:31:28 ERROR Launcher:15 - error log
+2018-08-20 14:31:28 FATAL Launcher:16 - fatal log
+2018-08-20 14:31:28 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:35:09 TRACE Launcher:11 - trace log
+2018-08-20 14:35:09 DEBUG Launcher:12 - debug log
+2018-08-20 14:35:09 INFO  Launcher:13 - info log
+2018-08-20 14:35:09 WARN  Launcher:14 - warn log
+2018-08-20 14:35:09 ERROR Launcher:15 - error log
+2018-08-20 14:35:09 FATAL Launcher:16 - fatal log
+2018-08-20 14:35:09 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:35:13 TRACE LoginScreen:23 - username = 0
+2018-08-20 14:37:15 TRACE Launcher:11 - trace log
+2018-08-20 14:37:15 DEBUG Launcher:12 - debug log
+2018-08-20 14:37:15 INFO  Launcher:13 - info log
+2018-08-20 14:37:15 WARN  Launcher:14 - warn log
+2018-08-20 14:37:15 ERROR Launcher:15 - error log
+2018-08-20 14:37:15 FATAL Launcher:16 - fatal log
+2018-08-20 14:37:15 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:37:18 TRACE LoginScreen:23 - username = 0
+2018-08-20 14:43:43 TRACE Launcher:11 - trace log
+2018-08-20 14:43:43 DEBUG Launcher:12 - debug log
+2018-08-20 14:43:43 INFO  Launcher:13 - info log
+2018-08-20 14:43:43 WARN  Launcher:14 - warn log
+2018-08-20 14:43:43 ERROR Launcher:15 - error log
+2018-08-20 14:43:43 FATAL Launcher:16 - fatal log
+2018-08-20 14:43:43 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:43:48 TRACE LoginScreen:23 - username = 0
+2018-08-20 14:45:48 TRACE Launcher:11 - trace log
+2018-08-20 14:45:48 DEBUG Launcher:12 - debug log
+2018-08-20 14:45:48 INFO  Launcher:13 - info log
+2018-08-20 14:45:48 WARN  Launcher:14 - warn log
+2018-08-20 14:45:48 ERROR Launcher:15 - error log
+2018-08-20 14:45:48 FATAL Launcher:16 - fatal log
+2018-08-20 14:45:49 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:45:51 TRACE LoginScreen:23 - username = 0
+2018-08-20 14:47:40 TRACE Launcher:11 - trace log
+2018-08-20 14:47:40 DEBUG Launcher:12 - debug log
+2018-08-20 14:47:40 INFO  Launcher:13 - info log
+2018-08-20 14:47:40 WARN  Launcher:14 - warn log
+2018-08-20 14:47:40 ERROR Launcher:15 - error log
+2018-08-20 14:47:40 FATAL Launcher:16 - fatal log
+2018-08-20 14:47:40 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:47:43 TRACE Launcher:11 - trace log
+2018-08-20 14:47:43 DEBUG Launcher:12 - debug log
+2018-08-20 14:47:43 INFO  Launcher:13 - info log
+2018-08-20 14:47:43 WARN  Launcher:14 - warn log
+2018-08-20 14:47:43 ERROR Launcher:15 - error log
+2018-08-20 14:47:43 FATAL Launcher:16 - fatal log
+2018-08-20 14:47:43 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:47:47 TRACE LoginScreen:23 - username = 0
+2018-08-20 14:48:52 TRACE Launcher:11 - trace log
+2018-08-20 14:48:52 DEBUG Launcher:12 - debug log
+2018-08-20 14:48:52 INFO  Launcher:13 - info log
+2018-08-20 14:48:52 WARN  Launcher:14 - warn log
+2018-08-20 14:48:52 ERROR Launcher:15 - error log
+2018-08-20 14:48:52 FATAL Launcher:16 - fatal log
+2018-08-20 14:48:52 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:48:56 TRACE LoginScreen:23 - username = piratezero
+2018-08-20 14:48:56 DEBUG LoginScreen:39 - received users credentials
+2018-08-20 14:48:57 INFO  LoginScreen:43 - user succefully logged in
+2018-08-20 14:48:57 INFO  LoginScreen:44 - welcomeUser [id=5, username=piratezero, password=null, firstName=zero, lastName=zero, age=100, balance=0]
+2018-08-20 14:49:27 TRACE Launcher:11 - trace log
+2018-08-20 14:49:27 DEBUG Launcher:12 - debug log
+2018-08-20 14:49:27 INFO  Launcher:13 - info log
+2018-08-20 14:49:27 WARN  Launcher:14 - warn log
+2018-08-20 14:49:27 ERROR Launcher:15 - error log
+2018-08-20 14:49:27 FATAL Launcher:16 - fatal log
+2018-08-20 14:49:27 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:49:29 TRACE LoginScreen:23 - username = 0
+2018-08-20 14:52:01 TRACE Launcher:11 - trace log
+2018-08-20 14:52:01 DEBUG Launcher:12 - debug log
+2018-08-20 14:52:01 INFO  Launcher:13 - info log
+2018-08-20 14:52:01 WARN  Launcher:14 - warn log
+2018-08-20 14:52:01 ERROR Launcher:15 - error log
+2018-08-20 14:52:01 FATAL Launcher:16 - fatal log
+2018-08-20 14:52:01 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:52:04 TRACE LoginScreen:23 - username = 0
+2018-08-20 14:52:31 TRACE Launcher:11 - trace log
+2018-08-20 14:52:31 DEBUG Launcher:12 - debug log
+2018-08-20 14:52:31 INFO  Launcher:13 - info log
+2018-08-20 14:52:31 WARN  Launcher:14 - warn log
+2018-08-20 14:52:31 ERROR Launcher:15 - error log
+2018-08-20 14:52:31 FATAL Launcher:16 - fatal log
+2018-08-20 14:52:31 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:52:35 TRACE Launcher:11 - trace log
+2018-08-20 14:52:35 DEBUG Launcher:12 - debug log
+2018-08-20 14:52:35 INFO  Launcher:13 - info log
+2018-08-20 14:52:35 WARN  Launcher:14 - warn log
+2018-08-20 14:52:35 ERROR Launcher:15 - error log
+2018-08-20 14:52:35 FATAL Launcher:16 - fatal log
+2018-08-20 14:52:35 DEBUG LoginScreen:20 - started login screen
+2018-08-20 14:52:37 TRACE LoginScreen:23 - username = 0
+2018-08-20 15:04:07 TRACE Launcher:11 - trace log
+2018-08-20 15:04:07 DEBUG Launcher:12 - debug log
+2018-08-20 15:04:07 INFO  Launcher:13 - info log
+2018-08-20 15:04:07 WARN  Launcher:14 - warn log
+2018-08-20 15:04:07 ERROR Launcher:15 - error log
+2018-08-20 15:04:07 FATAL Launcher:16 - fatal log
+2018-08-20 15:04:07 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:04:13 TRACE LoginScreen:23 - username = 0
+2018-08-20 15:11:32 TRACE Launcher:11 - trace log
+2018-08-20 15:11:32 DEBUG Launcher:12 - debug log
+2018-08-20 15:11:32 INFO  Launcher:13 - info log
+2018-08-20 15:11:32 WARN  Launcher:14 - warn log
+2018-08-20 15:11:32 ERROR Launcher:15 - error log
+2018-08-20 15:11:32 FATAL Launcher:16 - fatal log
+2018-08-20 15:11:32 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:11:42 TRACE Launcher:11 - trace log
+2018-08-20 15:11:42 DEBUG Launcher:12 - debug log
+2018-08-20 15:11:42 INFO  Launcher:13 - info log
+2018-08-20 15:11:42 WARN  Launcher:14 - warn log
+2018-08-20 15:11:42 ERROR Launcher:15 - error log
+2018-08-20 15:11:42 FATAL Launcher:16 - fatal log
+2018-08-20 15:11:42 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:11:44 TRACE LoginScreen:23 - username = 0
+2018-08-20 15:17:32 TRACE Launcher:11 - trace log
+2018-08-20 15:17:32 DEBUG Launcher:12 - debug log
+2018-08-20 15:17:32 INFO  Launcher:13 - info log
+2018-08-20 15:17:32 WARN  Launcher:14 - warn log
+2018-08-20 15:17:32 ERROR Launcher:15 - error log
+2018-08-20 15:17:32 FATAL Launcher:16 - fatal log
+2018-08-20 15:17:32 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:17:35 TRACE LoginScreen:23 - username = 0
+2018-08-20 15:18:20 TRACE Launcher:11 - trace log
+2018-08-20 15:18:20 DEBUG Launcher:12 - debug log
+2018-08-20 15:18:20 INFO  Launcher:13 - info log
+2018-08-20 15:18:20 WARN  Launcher:14 - warn log
+2018-08-20 15:18:20 ERROR Launcher:15 - error log
+2018-08-20 15:18:20 FATAL Launcher:16 - fatal log
+2018-08-20 15:18:20 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:18:22 TRACE LoginScreen:23 - username = 0
+2018-08-20 15:20:22 TRACE Launcher:11 - trace log
+2018-08-20 15:20:22 DEBUG Launcher:12 - debug log
+2018-08-20 15:20:22 INFO  Launcher:13 - info log
+2018-08-20 15:20:22 WARN  Launcher:14 - warn log
+2018-08-20 15:20:22 ERROR Launcher:15 - error log
+2018-08-20 15:20:22 FATAL Launcher:16 - fatal log
+2018-08-20 15:20:22 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:20:24 TRACE LoginScreen:23 - username = 0
+2018-08-20 15:21:08 TRACE Launcher:11 - trace log
+2018-08-20 15:21:08 DEBUG Launcher:12 - debug log
+2018-08-20 15:21:08 INFO  Launcher:13 - info log
+2018-08-20 15:21:08 WARN  Launcher:14 - warn log
+2018-08-20 15:21:08 ERROR Launcher:15 - error log
+2018-08-20 15:21:08 FATAL Launcher:16 - fatal log
+2018-08-20 15:21:08 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:21:10 TRACE LoginScreen:23 - username = 0
+2018-08-20 15:22:15 TRACE Launcher:11 - trace log
+2018-08-20 15:22:15 DEBUG Launcher:12 - debug log
+2018-08-20 15:22:15 INFO  Launcher:13 - info log
+2018-08-20 15:22:15 WARN  Launcher:14 - warn log
+2018-08-20 15:22:15 ERROR Launcher:15 - error log
+2018-08-20 15:22:15 FATAL Launcher:16 - fatal log
+2018-08-20 15:22:15 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:22:29 TRACE LoginScreen:23 - username = goldpirate
+2018-08-20 15:22:31 DEBUG LoginScreen:39 - received users credentials
+2018-08-20 15:22:32 WARN  UserDaoJdbc:74 - failed to find user with provided credentials from the db
+2018-08-20 15:22:32 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:22:36 TRACE LoginScreen:23 - username = register
+2018-08-20 15:22:47 TRACE UserDaoJdbc:42 - 1 records created
+2018-08-20 15:22:47 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:22:55 TRACE LoginScreen:23 - username = goldpirate
+2018-08-20 15:22:57 DEBUG LoginScreen:39 - received users credentials
+2018-08-20 15:22:57 INFO  LoginScreen:43 - user succefully logged in
+2018-08-20 15:22:57 INFO  LoginScreen:44 - welcomeUser [id=6, username=goldpirate, password=null, firstName=shiny, lastName=gold, age=60, balance=0]
+2018-08-20 15:23:03 TRACE TransactionDaoJdbc:29 - 1 records created
+2018-08-20 15:23:03 TRACE TransactionDaoJdbc:33 - generated transaction id is17
+2018-08-20 15:23:03 INFO  WithdrawlScreen:46 - Created TransactionTransaction [transactionId=17, deposit=0, withdraw=0, userId=6]
+2018-08-20 15:23:11 TRACE TransactionDaoJdbc:29 - 1 records created
+2018-08-20 15:23:11 TRACE TransactionDaoJdbc:33 - generated transaction id is18
+2018-08-20 15:23:11 INFO  DepositScreen:45 - Created TransactionTransaction [transactionId=18, deposit=30, withdraw=0, userId=6]
+2018-08-20 15:23:30 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:23:34 TRACE LoginScreen:23 - username = 0
+2018-08-20 15:23:57 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:28:30 TRACE Launcher:11 - trace log
+2018-08-20 15:28:30 DEBUG Launcher:12 - debug log
+2018-08-20 15:28:30 INFO  Launcher:13 - info log
+2018-08-20 15:28:30 WARN  Launcher:14 - warn log
+2018-08-20 15:28:30 ERROR Launcher:15 - error log
+2018-08-20 15:28:30 FATAL Launcher:16 - fatal log
+2018-08-20 15:28:30 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:28:37 TRACE LoginScreen:23 - username = bluepirate
+2018-08-20 15:28:38 DEBUG LoginScreen:39 - received users credentials
+2018-08-20 15:28:39 INFO  LoginScreen:43 - user succefully logged in
+2018-08-20 15:28:39 INFO  LoginScreen:44 - welcomeUser [id=3, username=bluepirate, password=null, firstName=bleu, lastName=blue, age=19, balance=108]
+2018-08-20 15:29:02 TRACE Launcher:11 - trace log
+2018-08-20 15:29:02 DEBUG Launcher:12 - debug log
+2018-08-20 15:29:02 INFO  Launcher:13 - info log
+2018-08-20 15:29:02 WARN  Launcher:14 - warn log
+2018-08-20 15:29:02 ERROR Launcher:15 - error log
+2018-08-20 15:29:02 FATAL Launcher:16 - fatal log
+2018-08-20 15:29:02 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:29:07 TRACE LoginScreen:23 - username = bluepirate
+2018-08-20 15:29:08 DEBUG LoginScreen:39 - received users credentials
+2018-08-20 15:29:09 INFO  LoginScreen:43 - user succefully logged in
+2018-08-20 15:29:09 INFO  LoginScreen:44 - welcomeUser [id=3, username=bluepirate, password=null, firstName=bleu, lastName=blue, age=19, balance=108]
+2018-08-20 15:29:12 TRACE TransactionDaoJdbc:29 - 1 records created
+2018-08-20 15:29:12 TRACE TransactionDaoJdbc:33 - generated transaction id is19
+2018-08-20 15:29:12 INFO  DepositScreen:47 - Created TransactionTransaction [transactionId=19, deposit=1, withdraw=0, userId=3]
+2018-08-20 15:41:40 TRACE Launcher:11 - trace log
+2018-08-20 15:41:40 DEBUG Launcher:12 - debug log
+2018-08-20 15:41:40 INFO  Launcher:13 - info log
+2018-08-20 15:41:40 WARN  Launcher:14 - warn log
+2018-08-20 15:41:40 ERROR Launcher:15 - error log
+2018-08-20 15:41:40 FATAL Launcher:16 - fatal log
+2018-08-20 15:41:40 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:41:43 TRACE LoginScreen:23 - username = register
+2018-08-20 15:41:58 TRACE UserDaoJdbc:42 - 1 records created
+2018-08-20 15:41:58 DEBUG LoginScreen:20 - started login screen

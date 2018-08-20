@@ -58,7 +58,9 @@ public class TransactionDaoJdbc implements TransactionDao {
 				T.setDeposit(rs.getInt("deposit"));
 				T.setWithdraw(rs.getInt("withdrawl"));
 				transactionHistory.add(T);
-			}		
+				
+			}	
+			
 			return transactionHistory ;
 			} catch (SQLException e) {
 			// TODO Auto-generated catch block

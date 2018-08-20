@@ -4,9 +4,12 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.apache.log4j.Logger;
 
+import com.revature.beans.Transaction;
 import com.revature.beans.User;
 import com.revature.util.ConnectionUtil;
 
@@ -98,6 +101,31 @@ public class UserDaoJdbc implements UserDao {
 		}
 		
 	
+	}
+
+	public List<User> findByUserId() {
+		try (Connection conn = cu.getConnection()) {
+			List<User> crew = new ArrayList<>();
+			PreparedStatement ps = conn.prepareStatement(
+			"SELECT user_id,username FROM user_info"
+			);
+			
+			ResultSet rs = ps.executeQuery();
+			while(rs.next()) {
+				User U = new User();
+				U.setUsername(rs.getString("username"));
+				U.setId(rs.getInt("user_id"));
+				crew.add(U);
+				
+			}	
+			
+			return crew ;
+			} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;		
+		
 	}
 
 	@Override
